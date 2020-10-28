@@ -3,7 +3,7 @@
 int find(char* s, char* p);
 int countOccurrences(char* s, char* p);
 
-int cnt = 0;
+int cnt = 0;									//Tutto funzionante con ricorsione.
 int flag = -1;
 
 // argc => arguments count
@@ -28,7 +28,7 @@ int main(int argc, char** argv)
     return 0;
 }
 
-int find(char* s, char* p){ // ritorna -1 se p non è in s, altrimenti il suo indice
+int find(char* s, char* p){ // ritorna -1 se p non Ã¨ in s, altrimenti il suo indice
     
     if(*s!='\0'){
     
@@ -54,7 +54,7 @@ int find(char* s, char* p){ // ritorna -1 se p non è in s, altrimenti il suo ind
 
 
 
-int countOccurrences(char* s, char* p){ // ritorna il numero di volte in cui p è contenuta in s
+int countOccurrences(char* s, char* p){ // ritorna il numero di volte in cui p Ã¨ contenuta in s
     
     if(*s!='\0'){
     
